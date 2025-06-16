@@ -17,6 +17,9 @@
       "cache": false,
       "persistent": true
     },
+    "generate": {
+      "outputs": []
+    }
   },
   "globalEnv": ["DATABASE_URL"]
 }
