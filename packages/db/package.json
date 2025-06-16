@@ -13,12 +13,10 @@
   "type": "module",
   "dependencies": {
     "@prisma/client": "^6.9.0",
-    "bcrypt": "^6.0.0"
+    "bcrypt": "^6.0.0",
+    "prisma": "^6.9.0"
   },
   "exports": {
-        "./client": "./index.ts"
-    },
-    "prisma": {
-        "seed": "ts-node prisma/seed.ts"
-    }
+    "./client": "./index.ts"
+  }
 }
