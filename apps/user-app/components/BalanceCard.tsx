@@ -1,6 +1,7 @@
-import { Card } from "@repo/ui/card";
+
 import { GiPadlock, GiPadlockOpen } from "react-icons/gi";
 import { MdOutlineAccountBalance, MdOutlineAccountBalanceWallet } from "react-icons/md";
+import { Card } from "./card";
 
 export const BalanceCard=({amount,locked}:{
     amount:number;

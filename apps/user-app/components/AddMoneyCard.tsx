@@ -1,11 +1,12 @@
 "use client"
 import { Button } from "@repo/ui/button";
-import { Card} from "@repo/ui/card";
+
 import { useState } from "react";
 import { ThreeDot } from "react-loading-indicators";
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Select } from "@repo/ui/select";
 import { TextInput } from "@repo/ui/textinput";
+import { Card } from "./card";
 
 
 

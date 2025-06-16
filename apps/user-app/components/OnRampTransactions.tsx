@@ -1,5 +1,6 @@
-import { Card } from "@repo/ui/card"
+
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai"
+import { Card } from "./card"
 
 export const OnRampTransaction=({transactions}:{
     transactions:{
