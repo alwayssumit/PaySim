@@ -6,8 +6,8 @@ export default function Layout({children,}:{
     children:React.ReactNode;
 }):React.JSX.Element{
     return(
-        <div className="flex ">
-            <div className="w-72 border-r border-slate-300 mr-4 pt-28">
+        <div className="flex h-screen overflow-hidden">
+            <div className="w-72 border-r border-slate-300 mr-4 pt-28 h-screen">
                 <div>
                     <SidebarItem href={"/dashboard"} title="Home" icon={<HomeIcon/>}/>
                     <SidebarItem href={"/transfer"} title="Transfer" icon={<TransferIcon/>}/>
