@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from '@repo/ui/button'
-import { Card } from '@repo/ui/card'
+
 
 import React, { useState } from 'react'
 import { p2pTransfer } from '../app/lib/actions/p2pTransfer'
@@ -13,6 +13,7 @@ import { useRouter } from 'next/navigation'
 import { TextInput } from '@repo/ui/textinput'
 import Aa from '@repo/ui/Aa'
 import { useSession } from 'next-auth/react'
+import { Card } from './card'
 
 
 
