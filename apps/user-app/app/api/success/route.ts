@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createOnRampTransaction } from "../../lib/actions/createOnRamptxn";
 
-export async function POST(req: NextRequest) {
+export async function POST(req: NextRequest){
   try {
     const body = await req.json();
     const { amount, provider } = body;
